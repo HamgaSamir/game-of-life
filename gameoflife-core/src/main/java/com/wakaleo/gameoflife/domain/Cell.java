@@ -10,8 +10,8 @@ package com.wakaleo.gameoflife.domain;
 public enum Cell {
 	// Symbols to represent cell status
     LIVE_CELL("*"), DEAD_CELL(".");
-// SAMIR COMMENT ADD 
-    LIVE_CELL("+"), DEAD_CELL(".");
+// SAMIR COMMENT ADD  TEST
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
